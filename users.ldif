@@ -1,4 +1,4 @@
-dn: cn=rod,ou=people,dc=springframework,dc=org
+dn: cn=rod,ou=people,dc=agfa,dc=com
 objectclass: top
 objectclass: person
 objectclass: organizationalPerson

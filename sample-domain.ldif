@@ -1,0 +1,29 @@
+dn: ou=users,dc=wimpi,dc=net
+objectClass: organizationalUnit
+objectClass: top
+ou: users
+
+dn: uid=test,ou=users,dc=wimpi,dc=net
+objectClass: top
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: securityPrincipal
+objectCategory: User
+cn: Test User
+sn: test
+uid: test
+sAMAccountName: test
+userPassword: secret
+memberOf: admin
+objectGUID: 100
+
+dn: ou=roles,dc=wimpi,dc=net
+objectclass: top
+objectclass: organizationalUnit
+ou: roles
+
+dn: cn=admin,ou=roles,dc=wimpi,dc=net
+objectClass: top
+objectClass: groupOfNames
+cn: admin
+member: uid=test,ou=users,dc=wimpi,dc=net
