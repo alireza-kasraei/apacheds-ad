@@ -1,0 +1,10 @@
+dn: cn=rod,ou=people,dc=springframework,dc=org
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+objectclass: securityPrincipal
+cn: Rod Johnson
+sn: Johnson
+sAMAccountName: rod
+userPassword: koala
